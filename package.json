@@ -1,0 +1,18 @@
+{
+  "name": "bugforge",
+  "version": "1.0.0",
+  "description": "AI bug bounty and fixer - two agents, Hunter and Coder",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1"
+  }
+}

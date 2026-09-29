@@ -1,0 +1,10 @@
+# Normalize line endings in the repo, check out with LF everywhere.
+# Without this, Windows clones CRLF and Linux/macOS clones LF, so every shared
+# file shows up as modified for half the team and diffs are pure noise.
+* text=auto eol=lf
+
+# Keep these as LF and never rewrite them on checkout.
+*.js   text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
+*.html text eol=lf
